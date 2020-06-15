@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	  <title>Registration</title>
+  </head>
+
+  <body>
+    <h1>Become a Trainer</h1>
+    <h4><a href="sigwebdevPractice.html">Return</a></h4>
+    <form>
+      <div>
+        <label for="firstName">First Name:</label>
+        <input id="firstName" name="firstName" type="text" placeholder="Ash" required>
+      
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" name="lastName" type="text" placeholder="Ketchup" required> 
+      </div>
+
+      <div>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" value="MALE">
+
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio" value="FEMALE">
+
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio" value="OTHER">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="your email" required>
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" minlength="5" maxlength="10" placeholder="your password" required>
+      </div>
+
+      <div>
+        <label for="Month">Birthday</label>
+        <select name="month" id="month">
+      	  <option value>Month</option>
+      	  <option>January</option>
+      	  <option>February</option>
+      	  <option>March</option>
+      	  <option>April</option>
+      	  <option>May</option>
+      	  <option>June</option>
+        </select>
+
+        <select name="day" id=day>
+      	  <option>Day</option>
+      	  <option>1</option>
+      	  <option>2</option>
+      	  <option>3</option>
+      	  <option>4</option>
+      	  <option>5</option>
+      	  <option>6</option>
+        </select>
+
+        <select name="year" id="year">
+      	  <option>Year</option>
+      	  <option>2000</option>
+       	  <option>2001</option>
+      	  <option>2002</option>
+      	  <option>2003</option>
+      	  <option>2004</option>
+          <option>2005</option>
+        </select>
+      </div>
+      
+      <div>
+        <label for="starter">Starter:</label>
+        <select name="starter" id="starter">
+          <option>Bulbasaur</option>
+          <option>Charmander</option>
+          <option>Squirtle</option>
+          <option>Chikorita</option>
+          <option>Cyndaquil</option>
+          <option>Totodile</option>
+        </select>
+      </div>
+
+      <br>
+
+      <textarea rows="5" cols="50">Enter why you want to be a trainer</textarea>
+
+      <br>
+
+      <label for="terms">I agree to complete the Pokedex</label>
+      <input id="terms" name="checkbox" type="checkbox">
+       
+      <input type="submit" value="Submit">
+      </form>
+    </body>
+  </html>
